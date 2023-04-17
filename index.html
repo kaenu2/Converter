@@ -5,38 +5,27 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>Converter</title>
 </head>
 <body>
-	<div class="app__back-timer back-timer">
-		<div class="back-timer__title">
-			<h1>Timer</h1>
-			<h2>modules</h2>
-			<h3></h3>
+	<div class="app-converter converter">
+		<div class="">
+			<input type="number" id="one" value="1">
+			<select size="1" name="val[]" class="list-one">
+				<option disabled>Выберите валюту</option>
+				<option selected value="rub">руб</option>
+				<option value="usd">Доллар США</option>
+				<option value="euro">Евро</option>
+			</select>
 		</div>
-		<div class="back-timer__item">
-			<span id="days">20</span>
-			<p class="back-timer__item-text">
-				Days
-			</p>
-		</div>
-		<div class="back-timer__item">
-			<span id="hourse">24</span>
-			<p class="back-timer__item-text">
-				hours
-			</p>
-		</div>
-		<div class="back-timer__item">
-			<span id="min">60</span>
-			<p class="back-timer__item-text">
-				mins
-			</p>
-		</div>
-		<div class="back-timer__item">
-			<span id="sec">54</span>
-			<p class="back-timer__item-text">
-				secs	
-			</p>
+		<div class="">
+			<input type="number" id="two">
+			<select size="1" name="valTwo[]" class="list-two">
+				<option disabled>Выберите валюту</option>
+				<option value="rub">руб</option>
+				<option selected value="usd">Доллар США</option>
+				<option value="euro">Евро</option>
+			</select>
 		</div>
 	</div>
 	<script src="index.js"></script>
