@@ -1,5 +1,3 @@
-"use strict";
-
 const data = {
 	euro: 89.64,
 	usd: 81.55,
@@ -57,7 +55,6 @@ selectTwo.onchange = (e) => {
 	valueTwo = i;
 	calcConverter(valueOne, valueTwo, oneInput.value);
 };
-
 
 oneInput.oninput = (e) => {
 	if (e.target.value === '') return;

@@ -4,25 +4,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="nullstyle.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Converter</title>
 </head>
 <body>
 	<div class="app-converter converter">
-		<div class="">
-			<input type="number" id="one" value="1">
-			<select size="1" name="val[]" class="list-one">
+		<div class="converter__list">
+			<input type="text" id="one" value="1">
+			<span></span>
+			<select size="1" class="list-one">
 				<option disabled>Выберите валюту</option>
-				<option selected value="rub">руб</option>
+				<option selected value="rub">Российский рубль</option>
 				<option value="usd">Доллар США</option>
 				<option value="euro">Евро</option>
 			</select>
 		</div>
-		<div class="">
-			<input type="number" id="two">
-			<select size="1" name="valTwo[]" class="list-two">
+		<div class="converter__list">
+			<input type="text" id="two">
+			<span></span>
+			<select size="1" class="list-two">
 				<option disabled>Выберите валюту</option>
-				<option value="rub">руб</option>
+				<option value="rub">Российский рубль</option>
 				<option selected value="usd">Доллар США</option>
 				<option value="euro">Евро</option>
 			</select>
